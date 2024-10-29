@@ -1,0 +1,15 @@
+POST http://127.0.0.1:5000/ads/
+Content-Type: application/json
+
+{
+        "user": "Polly",
+        "heading": "Selling the house",
+        "description": "Buy our beautiful house"
+}
+
+###
+GET http://127.0.0.1:5000/ads/412/
+###
+GET http://127.0.0.1:5000/ads/
+###
+DELETE http://127.0.0.1:5000/ads/1/
